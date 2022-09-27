@@ -1,0 +1,136 @@
+body {
+    background-image: url(wallpaper-esports.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#foto_perfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    border: #ff22b5 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+#foto_perfil:hover {
+    width: 130px;
+    height: 130px;
+    border-radius: 150px;
+    border: #ff22b5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+/* meus jogos */
+.box1 {
+    width: 600px;
+    height: 300px;
+    margin: 10px auto;
+    padding: 10px auto;
+    border-radius: 10px;
+    position: relative;
+    background: linear-gradient(to right, rgb(9, 0, 43), rgb(82, 0, 78));
+    box-shadow: #0000008c 5px 5px 10px;
+}
+
+.titulo {
+    color: rgb(245, 245, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 45px;
+    margin-bottom: -10px;
+}
+
+.legenda {
+    color: rgb(180, 180, 180);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 45px;
+
+}
+
+.jogos {
+    float: left;
+}
+
+.jogoimg {
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.jogoimg:hover {
+    width: 110px;
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: #0000008c 5px 5px 10px;
+}
+
+li {
+    align-items: center;
+    float: left;
+    list-style-type: none;
+    padding: 5px;
+}
+
+/* streamers */
+.box2 {
+    width: 600px;
+    height: 250px;
+    margin: 10px auto;
+    padding: 10px auto;
+    border-radius: 10px;
+    position: relative;
+    background: linear-gradient(to left, rgb(9, 0, 43), rgb(82, 0, 78));
+    box-shadow: #0000008c 5px 5px 10px;
+}
+
+.streamer {
+    float: left;
+}
+
+.streamimg {
+    width: 80px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.streamimg:hover {
+    width: 90px;
+    border-radius: 50px;
+    transition: 0.5s;
+    box-shadow: #0000008c 5px 5px 10px;
+}
+
+/* redes sociais */
+.box3 {
+    width: 600px;
+    height: 200px;
+    margin: 10px auto;
+    padding: 10px auto;
+    border-radius: 10px;
+    position: relative;
+    background: linear-gradient(to right, rgb(9, 0, 43), rgb(82, 0, 78));
+    box-shadow: #0000008c 5px 5px 10px;
+}
+
+.social {
+    float: left;
+}
+
+.socialimg {
+    width: 50px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.socialimg:hover {
+    width: 60px;
+    border-radius: 50px;
+    transition: 0.5s;
+    box-shadow: #0000008c 5px 5px 10px;
+}
